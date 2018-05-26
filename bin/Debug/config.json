@@ -1,0 +1,20 @@
+{
+    
+    "Database": {
+        "Host": "localhost",
+        "User": "cod4master",
+        "Password": "cod4master",
+        "DataBase": "cod4_master" //Schema
+    },
+    "Network": {
+        "QueryPort": 28961,
+        "MasterServerResponseMaxBufferLength": 805, //805 bytes or more
+        "GameServerResponseMaxBufferLength": 2024,
+        "MasterServerResponseTimeout": 5000,
+        "GameServerResponseTimeout": 2,
+        "RetryDelay":5,
+    },
+    "BlackList": [
+        "12.34.56.7"
+    ]
+}
